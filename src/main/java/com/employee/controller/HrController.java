@@ -64,7 +64,7 @@ public class HrController {
 				res.sendRedirect("/employees");
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
-				e.printStackTrace();
+				System.out.println("error");
 			}
 		}
 		else
@@ -73,7 +73,7 @@ public class HrController {
 				res.sendRedirect("/");
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
-				e.printStackTrace();
+				System.out.println("error");
 			}
 		}
 	}
@@ -123,7 +123,7 @@ public class HrController {
 			res.sendRedirect("/employees");
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
+			System.out.println("error");
 		}
 	}
 	@PostMapping("/update")
@@ -141,7 +141,7 @@ public class HrController {
 			res.sendRedirect("/employees");
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
+			System.out.println("error");
 		}
 	}
 	@GetMapping("/download")
@@ -181,7 +181,7 @@ public class HrController {
 		res.sendRedirect("login.jsp");
 	} catch (IOException e) {
 		// TODO Auto-generated catch block
-		e.printStackTrace();
+		System.out.println("error");
 	}
 		
 	}
