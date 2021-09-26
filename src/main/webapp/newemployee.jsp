@@ -1,42 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
-<!-- 
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-</head>
-<body>
-<form action="/employee" method="post">
-<br>
-<br>
-Employee Id:
-<input type="text" name="eid">
-<br>
-<br>
-Employee Name
-<input type="text" name="ename">
-<br>
-<br>
-Employee Location
-<input type="text" name="elocation">
-<br>
-<br>
-Employee Dob
-<input type="text" name="edob">
-<br>
-<br>
-Employee Email
-<input type="text" name="eemail">
-<br>
-<br>
-<input type="submit">
 
-</form>
-</body>
-</html>
- -->
  <!DOCTYPE html>
 <html lang="en">
 
